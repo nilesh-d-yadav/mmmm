@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  text-align: center;
+  /*Most browser has Serif(feet),Times Of India and Sans-serif has Arial*/
+  /*Following is what we are embedding in*/
+  font-family:'Merriweather', serif;
+  color: #40514E;
+
+
+
+}
+.intro{
+  text-align: justify;
+}
+h1{
+  /*If we use px then that is not browser oriented but % are */
+/*Or Dynamic font-sixe:- */
+/*Dynamic are % and em and with body and h1 having different values , h1 will add up both*/
+  /*100%=16 px and 90px can be 90/16=5.625*/
+  /*1em=16px , so, */
+
+  font-size:2.625rem;/*root em doesn't get affected by body size when working with dynamic, SO USE rem*/
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+
+h2{
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 2px;
+
+}
+.gen{
+  font-family: cursive;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.para{
+  font-family: cursive;
+}
+.a25{
+  font-family: cursive;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.top{
+  background-color:#E4F9F5 ;
+  position: relative;
+  padding-top: 5px;
+
+}
+
+/*.pro{
+  text-decoration: underline;
+}*/
+.bottom-cloud{
+  position: absolute;
+  left: 240px;
+  bottom: 280px;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 220px;
+  top: 40px;
+
+}
+.slide{
+  position: absolute;
+  width: 150px;
+  right: 100px;
+  bottom: 50px;
+}
+.image{
+  width: 20%;
+
+}
+.program{
+  position: relative;
+  left: 10px;
+}
+.middle-container{
+  margin: 100px 0;
+  background-color: #B1E693;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding:50px 0 20px;
+}
+.skills{
+  padding-bottom: 0;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.skill-row{
+  margin: 130px auto 100px auto;
+  width: 50%;
+  margin right: 100px;
+
+  text-align: left;
+}
+.skill-bottom{
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-left: 40px;
+
+}
+.touch{
+  padding-left: 430px;
+}
+.al{
+  padding-top: 35px;
+}
+.mountain{
+  width: 1075px;
+}
+.webde{
+  width: 70%;
+  float: left;/*textwill wrap around the image on right side and image remains on left.*/
+  margin-right: 30px;
+  padding-top: 20px;
+}
+.program{
+  width: 35%;
+  float: right;
+  margin-right: 100px;
+}
+
+.boy{
+  width: 25%;
+}
+.earth{
+  width: 3%;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+  font-family: monospace;
+  font-size: 15px;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border-color: black;
+  border: dotted ;
+  border-top: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+.contact_me{
+
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+  font-family: cursive;
+}
+.copyright{
+  color:#EAF6F6;
+  font-style: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.fan{
+
+}
+.clack{
+  font-size: 20px;
+}
